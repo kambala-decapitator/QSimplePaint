@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/QSimplePaint">
+        <file>Resources/1286527722_stock_draw-rectangle-unfilled.png</file>
+        <file>Resources/1286527727_stock_draw-rectangle.png</file>
+        <file>Resources/1286527884_Exit.png</file>
+        <file>Resources/eraser_minus.png</file>
+        <file>Resources/picture_save.png</file>
+        <file>Resources/stock_draw-circle-unfilled.png</file>
+        <file>Resources/stock_draw-ellipse-unfilled.png</file>
+        <file>Resources/stock_draw-ellipse.png</file>
+        <file>Resources/stock_draw-line.png</file>
+        <file>Resources/stock_draw-rounded-rectangle-unfilled.png</file>
+        <file>Resources/stock_draw-rounded-rectangle.png</file>
+        <file>Resources/zoomin.png</file>
+        <file>Resources/zoomout.png</file>
+        <file>Resources/1286528428_picture_delete.png</file>
+        <file>Resources/1286528461_picture_add.png</file>
+        <file>Resources/1286528499_folder_picture.png</file>
+        <file>Resources/1286528508_picture_go.png</file>
+        <file>Resources/1286992397_picture_go1.png</file>
+        <file>Resources/1286994517_print_32.png</file>
+        <file>Resources/1286994429_picture_saveas.png</file>
+        <file>Resources/1286995080_Zoom.png</file>
+        <file>Resources/1286995465_report_picture.png</file>
+    </qresource>
+</RCC>
