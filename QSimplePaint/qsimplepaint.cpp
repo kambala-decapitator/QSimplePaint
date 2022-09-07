@@ -1,21 +1,21 @@
-#include <QtGui/QMessageBox>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QToolButton>
-#include <QtGui/QFileDialog>
-#include <QtGui/QColorDialog>
-#include <QtGui/QPrintDialog>
-#include <QtGui/QPrinter>
-#include <QtGui/QImageWriter>
+#include <QMessageBox>
+#include <QHBoxLayout>
+#include <QToolButton>
+#include <QFileDialog>
+#include <QColorDialog>
+#include <QPrintDialog>
+#include <QPrinter>
+#include <QImageWriter>
 
-#include <QtSvg/QGraphicsSvgItem>
+#include <QGraphicsSvgItem>
 
-#include <QtCore/QSignalMapper>
-#include <QtCore/QTimer>
+#include <QSignalMapper>
+#include <QTimer>
 
 #include "qsimplepaint.h"
 
 
-QSimplePaint::QSimplePaint(QWidget *parent, Qt::WFlags flags) : QMainWindow(parent, flags)
+QSimplePaint::QSimplePaint(QWidget *parent, Qt::WindowFlags flags) : QMainWindow(parent, flags)
 {
     ui.setupUi(this);
 

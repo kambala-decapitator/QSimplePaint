@@ -1,11 +1,11 @@
 #ifndef QSIMPLEPAINT_H
 #define QSIMPLEPAINT_H
 
-#include <QtGui/QMainWindow>
-#include <QtGui/QToolBar>
-#include <QtGui/QCloseEvent>
+#include <QMainWindow>
+#include <QToolBar>
+#include <QCloseEvent>
 
-#include <QtCore/QList>
+#include <QList>
 
 #include "ui_qsimplepaint.h"
 #include "paintscene.h"
@@ -16,7 +16,7 @@ class QSimplePaint : public QMainWindow
     Q_OBJECT
 
 public:
-    QSimplePaint(QWidget *parent = 0, Qt::WFlags flags = 0);
+    QSimplePaint(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 
 private slots:
 	void deleteAll();

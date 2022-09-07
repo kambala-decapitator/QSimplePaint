@@ -1,9 +1,9 @@
 #include "paintscene.h"
 
-#include <QtSvg/QSvgGenerator>
+#include <QSvgGenerator>
 
-#include <QtGui/QPainter>
-#include <QtGui/QGraphicsView>
+#include <QPainter>
+#include <QGraphicsView>
 
 #include "paintcommand.h"
 

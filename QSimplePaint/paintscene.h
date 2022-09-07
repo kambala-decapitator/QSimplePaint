@@ -1,13 +1,13 @@
 #ifndef PAINTSCENE_H
 #define PAINTSCENE_H
 
-#include <QtGui/QGraphicsScene>
-#include <QtGui/QGraphicsSceneMouseEvent>
-#include <QtGui/QGraphicsLineItem>
-#include <QtGui/QGraphicsRectItem>
-#include <QtGui/QGraphicsEllipseItem>
-#include <QtGui/QPainterPath>
-#include <QtGui/QGraphicsSceneWheelEvent>
+#include <QGraphicsScene>
+#include <QGraphicsSceneMouseEvent>
+#include <QGraphicsLineItem>
+#include <QGraphicsRectItem>
+#include <QGraphicsEllipseItem>
+#include <QPainterPath>
+#include <QGraphicsSceneWheelEvent>
 #include <QUndoStack>
 
 static const qreal scaleFactor = 1.5;

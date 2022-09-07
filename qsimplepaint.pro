@@ -1,4 +1,5 @@
 QT += svg
+greaterThan(QT_MAJOR_VERSION, 4): QT += printsupport widgets
 
 SOURCES += \
 	QSimplePaint/main.cpp \
